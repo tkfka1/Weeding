@@ -17,8 +17,8 @@ jobs:
 
     - name: Commit and push if changes
       run: |
-        git config --global user.name 'Your Name'
-        git config --global user.email 'your-email@example.com'
+        git config --global user.name 'tkfka1'
+        git config --global user.email 'tkfka1@korea.com'
         git add .
         git commit -m "Daily update"
         git push
