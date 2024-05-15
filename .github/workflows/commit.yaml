@@ -18,8 +18,8 @@ jobs:
 
     - name: Commit changes
       run: |
-        git config --global user.name "your-username"
-        git config --global user.email "your-email@example.com"
+        git config --global user.name 'tkfka1'
+        git config --global user.email 'tkfka1@korea.com'
         git add update.txt
         git commit -m "Daily commit: $(date)"
         git push
